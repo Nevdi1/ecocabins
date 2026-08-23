@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:regular,500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:900display=swap);
+
+/*
+&display=swap
+&display=swap&subset=cyrillic-ext
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,*::before,*::after {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+a,a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+button{
+	background-color: transparent;
+	line-height: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	cursor: pointer;
+	color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,body {
+	height: 100%;
+}
+
+body{
+	overflow-x: hidden;
+}
